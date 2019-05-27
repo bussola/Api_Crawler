@@ -16,7 +16,7 @@ Foi criado um comando para rodar o script do crawler - python manage.py roda_cra
 
 # API Endpoint
 Depois de rodar o crawler, rode o Django -> "python manage.py runserver";  
-o resultado ficará disponível via Json, no endpoint http://localhost:8000/api/v1/dados/  
+O resultado ficará disponível via Json, no endpoint http://localhost:8000/api/v1/dados/  
 
 
 # Observações
