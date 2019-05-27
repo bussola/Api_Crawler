@@ -4,16 +4,16 @@ Este projeto compões a criação de um simples web crawler com Selenium e Pytho
 
 
 # Instalação:
-Clone esse repositório;
-Crie um DB postgres com as especificações dos dados que estão em settings.py;
-Instale o requirements.txt via pip;
-Migre o banco e crie um 'superuser';
+Clone esse repositório;  
+Crie um DB postgres com as especificações dos dados que estão em settings.py;  
+Instale o requirements.txt via pip;  
+Migre o banco e crie um 'superuser';  
 
 
 # Para rodar o Crawler
-Foi criado um comando para rodar o script do crawler - python manage.py roda_crawler;
-O crawler abre a página, preenche os dados necessários e tenta quebrar o captcha até conseguir;
-Com o captcha 'quebrado', salva a imagem do captcha para futuras utilizações;
+Foi criado um comando para rodar o script do crawler - python manage.py roda_crawler;  
+O crawler abre a página, preenche os dados necessários e tenta quebrar o captcha até conseguir;  
+Com o captcha 'quebrado', salva a imagem do captcha para futuras utilizações;  
 
 
 # API Endpoint
